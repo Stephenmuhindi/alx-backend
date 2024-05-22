@@ -20,7 +20,7 @@ class LFUCache(BaseCaching):
 
     def put(self, key, item):
         """
-        k-v cache 
+        k-v cache
         """
         if key is None or item is None:
             pass
